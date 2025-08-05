@@ -1,15 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 import Home from './Home';
-import Projects from './Projects'
-import Exp from './Exp'
+import Projects from './Projects';
+import Exp from './Exp';
 
 function App() {
-
-
-
   const [darkMode, setDarkMode] = useState(false);
+
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark');
@@ -18,19 +16,18 @@ function App() {
       document.body.classList.add('light');
       document.body.classList.remove('dark');
     }
-  }, [darkMode]);  // Runs whenever darkMode changes
-  
+  }, [darkMode]);
+
   const toggleDarkMode = () => {
     setDarkMode(prev => {
-      localStorage.setItem('darkMode', String(!prev))
+      localStorage.setItem('darkMode', String(!prev));
       return !prev;
-    })
+    });
+  };
 
-  }
   return (
-  <Router>
+    <Router basename="/personal-project">
       <div className={`App ${darkMode ? 'dark' : 'light'}`}>
-        {/* 🌙 / 🌞 Toggle Button */}
         <button
           onClick={toggleDarkMode}
           style={{
@@ -51,7 +48,7 @@ function App() {
         <NavBar />
         <div className="content">
           <Routes>
-            <Route path="https://adarby302.github.io/personal-project/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/exp" element={<Exp />} />
