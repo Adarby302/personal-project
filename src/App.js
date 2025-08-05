@@ -51,7 +51,7 @@ function App() {
         <NavBar />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="https://adarby302.github.io/personal-project/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/exp" element={<Exp />} />
