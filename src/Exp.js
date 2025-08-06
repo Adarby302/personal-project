@@ -25,7 +25,7 @@ const Exp = () => {
         <li>Used Service Now, SSCM, Active Directory and Azure to administer & provide support for internal companies.</li>
         <li>Provided On-Call support for 30+ different Berkley Companies.</li>
         <li>Esclated and routed P3 issues to their respective teams.</li>
-        <li>Utlized technoloiges such as Azure to query lock-outs and manage on prem devices.</li>
+        <li>Utlized technoloiges such as Azure to query lock-outs and manage on-prem devices.</li>
         <li>Created custom scripts to help remidiate some work for tedious tasks.</li>
         <li>Followed SOX Control Standards to audit various internal companies.</li>
         <li>Updated and created testing methodologies towards various existing SOX Control Standards.</li>
@@ -40,8 +40,8 @@ const Exp = () => {
         <li> Full stack development with Sails(Appian) and .NET to create a smooth and polished digital experience for Wilmington
              Trust and their internal Agent Transferring Service.</li>
         <li>Exposure to UI/UX design principles, increased clarity and workflow for highly regulated environments.</li>
-        <li>Exposure to code quality tools, specifically "sonar-cube". Helped implenet the solution on a DEV enviornment.</li>
-        <li>Helped piece together some of the middleware that was used to reference old data from the old enviornment to new enviornment.</li>
+        <li>Exposure to code quality tools, specifically: "sonar-cube". Helped implement the solution on a DEV enviornment.</li>
+        <li>Helped piece together some of the middleware that was used to reference old data from the old environment onto the new environment</li>
       </ExperienceItem>
       <ExperienceItem
         title="Teaching Assistant"
@@ -49,8 +49,8 @@ const Exp = () => {
         date="August 2022 – December 2023"
       >
         <li>TA'd for CISC 181(Introduction to Comptuer Science II) and CISC 220 (Data Structures).</li>
-        <li>181 Topics included: Intro to Object Oriented Programming, Polymoprhism, and Abstraction Concepts in Java.</li>
-        <li>220 Topics included: Recursion, Stacks/Queues, Graphs, Maps, and beginner sorting algorithms.</li>
+        <li>181 Topics included: Intro to Object Oriented Programming, Polymoprhism, and Abstraction.</li>
+        <li>220 Topics included: Recursion, Stacks/Queues, Graphs, Maps, and beginner Sorting Algorithms.</li>
       </ExperienceItem>
       <ExperienceItem
         title="Computer Sciences Intern"
@@ -60,7 +60,7 @@ const Exp = () => {
         <li> Used .NET and Oracle to Automate critical tasks on various liquid handlers for screening. Automation
              increased productivity by nearly 2x, eliminating tedious manual work for storing data.</li>
         <li> Made notable improvements to existing tasks across a variety of machines reassuring quality of life.</li>
-        <li> Contributed to a custom ML solution and helped do some manual tunning for the model(True and False Positives).</li>
+        <li> Contributed to a custom ML(Machine-Learning) solution and helped conduct manual tunning for the model(True & False Positives).</li>
       </ExperienceItem>
        <ExperienceItem
         title="Computing Consultant"
