@@ -41,7 +41,7 @@ const Exp = () => {
              Trust and their internal Agent Transferring Service.</li>
         <li>Exposure to UI/UX design principles, increased clarity and workflow for highly regulated environments.</li>
         <li>Exposure to code quality tools, specifically "sonar-cube". Helped implenet the solution on a DEV enviornment.</li>
-        <li>Helped piece together some of the middleware that was used to reference old data from the old env to new env.</li>
+        <li>Helped piece together some of the middleware that was used to reference old data from the old enviornment to new enviornment.</li>
       </ExperienceItem>
       <ExperienceItem
         title="Teaching Assistant"
