@@ -40,8 +40,8 @@ const Exp = () => {
         <li> Full stack development with Sails(Appian) and .NET to create a smooth and polished digital experience for Wilmington
              Trust and their internal Agent Transferring Service.</li>
         <li>Exposure to UI/UX design principles, increased clarity and workflow for highly regulated environments.</li>
-        <li>Exposure to code quality tools, specifically "sonarcube", helped implenet on a DEV enviornment.</li>
-        <li>Helped piece together some of the middleware that was used to reference old data from the old to new.</li>
+        <li>Exposure to code quality tools, specifically "sonar-cube". Helped implenet the solution on a DEV enviornment.</li>
+        <li>Helped piece together some of the middleware that was used to reference old data from the old env to new env.</li>
       </ExperienceItem>
       <ExperienceItem
         title="Teaching Assistant"
@@ -60,15 +60,15 @@ const Exp = () => {
         <li> Used .NET and Oracle to Automate critical tasks on various liquid handlers for screening. Automation
              increased productivity by nearly 2x, eliminating tedious manual work for storing data.</li>
         <li> Made notable improvements to existing tasks across a variety of machines reassuring quality of life.</li>
-        <li> Contributed to a custom ML solution, helped do manual tunning for the model(True and False Positives).</li>
+        <li> Contributed to a custom ML solution and helped do some manual tunning for the model(True and False Positives).</li>
       </ExperienceItem>
        <ExperienceItem
         title="Computing Consultant"
         company="University of Delaware"
         date="August 2021 – May 2023"
       >
-        <li>Resolved and documented hardware, software, and network issues on-site and remotely throughout the University.</li>
-        <li>Assist maintained an Active Directory for all the University’s computers on and off campus. For Mac OS, this was done with JAMF.</li>
+        <li>Resolved and documented: hardware, software, and network issues on-site and remotely throughout the University.</li>
+        <li>Assist and maintained an Active Directory for all the University’s computers on and off campus. For Mac OS, this was done with JAMF.</li>
         <li>Imaged Operating Systems for Workers Manually(USB and Ethernet).</li>
         <li>Made small UI changes to a custom imaging tool(VB), that helped imaged computers.</li>
       </ExperienceItem>
