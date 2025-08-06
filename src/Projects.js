@@ -39,7 +39,7 @@ const Projects = () => {
 
   return (
     <div className="projects-page">
-      <h1>My Projects</h1>
+      <h1>My Projects(work in progress 🔧)</h1>
       <div className="projects-grid">
         {dummyProjects.map((project, index) => (
           <div
